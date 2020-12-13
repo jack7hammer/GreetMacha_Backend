@@ -25,7 +25,7 @@ SECRET_KEY = 'x(+v#(2$8y3$o5d_%imlpv=oqa_yh2w!#qa*w=sv5*6#xh=f(u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['greetmachadev.pythonanywhere.com']
 
 
 # Application definition
