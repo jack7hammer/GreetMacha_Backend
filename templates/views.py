@@ -18,4 +18,5 @@ def t1(request):
 		mime = mime + ";" if mime else ";"
 		input_image = "data:%sbase64,%s" % (mime, encoded)
 		context={'name':name,'message':message, 'input_image':input_image}
-	return render(request,"templates/birthday_template.html", context)
+		return render(request,"templates/birthday_template.html", context)
+	return render(request,"templates/birthday_template.html")
