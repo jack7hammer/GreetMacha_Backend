@@ -64,7 +64,7 @@ div {
 <div>
 
 
-<form action="/template_01" method="POST">
+<form action="/template_01" method="POST" enctype="multipart/form-data">
        {% csrf_token %}
     <label for="bfname">Birthday Person</label>
     <input type="text" id="bfname" name="bfname" placeholder="The name of the person who's birthday it is">
@@ -74,7 +74,7 @@ div {
 
   <br/><br/>
   <label for= "picture"> Upload Pictures</label>
-  <input type="file" id="myFile" name="filename" class= "button">
+  <input type="file" id="input_image" name="inputImage" class= "button">
 
   <br/><br/>
   <button class= "button" type="submit" name="preview" value="preview"> Preview </button>
